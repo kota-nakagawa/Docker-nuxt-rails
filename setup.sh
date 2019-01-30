@@ -37,4 +37,4 @@ else
   fail "  x Check error messages and resolve the problem."
 fi
 
-info '  + Done to setup the CodeGO.'
+info '  + Done to setup.'

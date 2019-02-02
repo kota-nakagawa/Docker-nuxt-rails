@@ -8,6 +8,8 @@ ADD ./nuxt.conf /etc/nginx/conf.d/nuxt.conf
 RUN rm -rf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
+EXPOSE 8000
+
 
 RUN mkdir -p /run/nginx
 

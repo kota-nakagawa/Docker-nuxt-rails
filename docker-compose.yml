@@ -75,8 +75,8 @@ services:
           - ./docker/rails/app:/usr/src/app
           - bundle_install:/usr/local/bundle          
       command: "bundle exec rails server --binding 0.0.0.0 --port 9000"
-      expose:
-          - "9000"
+      ports:
+          - "9000:9000"
       stdin_open: true          
       tty: true
 

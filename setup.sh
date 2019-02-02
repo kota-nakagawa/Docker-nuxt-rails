@@ -12,6 +12,7 @@ function prepare_environment() {
   docker-compose build
   docker-compose up -d
   docker-compose run nuxt yarn install
+  docker-compose run rails gem install bundler
   docker-compose run rails bundle install --path vendor/bundle
   docker-compose exec postgres createdb sample
   docker-compose down

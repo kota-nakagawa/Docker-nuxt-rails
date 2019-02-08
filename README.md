@@ -27,7 +27,7 @@ $ docker-compose up
 
 http://localhost:1080  にアクセスすると、mail(mailcatcher)が表示されます。
 
-http://localhost:3000  にアクセスすると、ユーザーページ(nuxt.js)が表示されます。
+http://localhost:80  にアクセスすると、ユーザーページ(nuxt.js)が表示されます。
 
 http://localhost:8000  にアクセスすると、apiサーバー(rails)が表示されます。
 

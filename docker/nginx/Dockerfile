@@ -4,6 +4,7 @@ RUN apk update && \
     apk add --no-cache nginx
 
 ADD ./nuxt.conf /etc/nginx/conf.d/nuxt.conf
+ADD ./rails.conf /etc/nginx/conf.d/rails.conf
 
 RUN rm -rf /etc/nginx/conf.d/default.conf
 

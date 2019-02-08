@@ -7,6 +7,4 @@ RUN mkdir /usr/src/app
 ENV APP_ROOT /usr/src/app
 WORKDIR /usr/src/app
 
-COPY ./app /usr/src/app
-
-EXPOSE 3000
+EXPOSE 9000

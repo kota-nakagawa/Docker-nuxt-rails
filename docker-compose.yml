@@ -61,7 +61,6 @@ services:
           - ./nuxt:/var/www/html/nuxt
       expose:
           - "3000"
-      tty: true
 
     rails:
       build: ./docker/rails

@@ -1,3 +1,6 @@
+# Docker-nuxt-rails
+[![MIT License](https://img.shields.io/github/license/nyanko-kota/Docker-nuxt-rails.svg?style=flat)](https://github.com/nyanko-kota/Docker-nuxt-rails/blob/master/LICENSE.txt)
+
 ### Docker環境の準備
 
 開発には全面的にDockerとDocker Composeを用います。
